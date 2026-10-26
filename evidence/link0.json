@@ -1,0 +1,70 @@
+{
+  "step": "link0",
+  "book_id": "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1",
+  "address": "0x81E98E8162e8EB1E02ef11E2eF5ea7aA391a1dED",
+  "sender": "0xEEe2ffA61B611bdb4D0e4aa9531CE5B8484398D5",
+  "functionName": "link",
+  "args": [
+    "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1",
+    0,
+    0,
+    1,
+    "For this product, a case contains exactly six boxes. This is a fixed packaging count, with no optional extra boxes."
+  ],
+  "state": "checked",
+  "time": "2026-10-26T08:47:26.806Z",
+  "hash": "0xf649901c9a434eb7c4ace1e03f9a1108e9adcff6329c99345af24d5551b839a3",
+  "status": "FINALIZED",
+  "result": "MAJORITY_AGREE",
+  "execution": "return",
+  "votes": {
+    "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
+    "0x5e84e17266a193077728229751aC8A1dD24be146": "idle",
+    "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "idle",
+    "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree",
+    "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947": "agree"
+  },
+  "readback": {
+    "attempts": [
+      {
+        "decision": {
+          "ratio": [
+            6,
+            1
+          ],
+          "status": "EXACT"
+        },
+        "from": 0,
+        "input_hash": "9d7c17bc71b7dcd264cdbaa4c2ac47ef958790190beccf842ad972c00a12ee56",
+        "outcome": "LINKED",
+        "statement": "For this product, a case contains exactly six boxes. This is a fixed packaging count, with no optional extra boxes.",
+        "to": 1,
+        "witness": null
+      }
+    ],
+    "edges": [
+      {
+        "attempt": 0,
+        "from": 0,
+        "ratio": [
+          6,
+          1
+        ],
+        "to": 1
+      }
+    ],
+    "id": "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1",
+    "owner": "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5",
+    "product": "RR-17 uncoated brass paper clips, one fixed product variant",
+    "revision": 1,
+    "scope_hash": "38453bb6b599d8442834cc184f0c9ebcbf18f643d24e4575fe3964dc3e69d995",
+    "state": "OPEN",
+    "table": [],
+    "table_hash": "",
+    "units": [
+      "case",
+      "box",
+      "piece"
+    ]
+  }
+}

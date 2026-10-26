@@ -1,0 +1,18 @@
+{
+  "protocol": "ratiorail-1",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "address": "0x81E98E8162e8EB1E02ef11E2eF5ea7aA391a1dED",
+  "sender": "0xEEe2ffA61B611bdb4D0e4aa9531CE5B8484398D5",
+  "book_id": "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1",
+  "source_sha256": "52ff676a63628d504dc9639bb07f136385ddd6765bf1d82002130811e898e5fd",
+  "source_checkpoint": "bb99f5e5ec0f2a000e3d87968683ca9dcb6015b1",
+  "transactions": {
+    "deployment": "0x073bda60bc8cc74098f8495bfa62b5a7e2a7aabf8788461c8e91e9a01390976d",
+    "create": "0xfaef67c2301f56b30967c7be5ef21fbd29f0d87508531ec82faf1ef2cbe1ade5",
+    "link0": "0xf649901c9a434eb7c4ace1e03f9a1108e9adcff6329c99345af24d5551b839a3",
+    "link1": "0x550f1282a7736b561d5ac133b5f035d8eb0d0e9f9bc6983cf90ea219f3fdb0ed",
+    "link2": "0x785c419043d4b222be73e7c77233a81d47cdfc531af0533683221f3d009a4582",
+    "freeze": "0xbf8fe9f833af98820041f6eb8c15f63d6da826c6b7774b04a6b348bb6b9bba96"
+  }
+}

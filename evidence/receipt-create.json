@@ -1,0 +1,273 @@
+{
+  "hash": "0xfaef67c2301f56b30967c7be5ef21fbd29f0d87508531ec82faf1ef2cbe1ade5",
+  "from_address": "0xEEe2ffA61B611bdb4D0e4aa9531CE5B8484398D5",
+  "to_address": "0x81E98E8162e8EB1E02ef11E2eF5ea7aA391a1dED",
+  "statusName": "FINALIZED",
+  "result_name": "MAJORITY_AGREE",
+  "execution_mode": "NORMAL",
+  "leader_only": false,
+  "num_of_initial_validators": 5,
+  "rotation_count": 0,
+  "num_of_rounds": "1",
+  "appealed": false,
+  "created_at": "2026-10-26T08:46:40.378805+00:00",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A",
+      "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc",
+      "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE",
+      "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2",
+      "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186"
+    ],
+    "validator_votes_hash": [
+      "0x457e7c3aafcef3fec7ce57a14b5e3b8e59e3fe72e3adf9bf76332f00f40636a2",
+      "0xf7ca1bd4f4914d356ed513d50f2b5def7be0614088698a4feaea6ddffbc8e8e3",
+      "0x66e9284b8647f59b197614668f3bfa26257ada8049cfecef8dbdadb9d51846a8",
+      "0x0ce3b04369e7e3e70ad555fc2e0e8d6c370b1735e015c789561493a48cf7c87a",
+      "0x6f1c2a81cca144bda521fd4e58e2aceb71d8d527c798b320f68d3c713643a896"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "format": "Exact RPC field projection; repeated source encodings, raw byte arrays and provider configurations omitted.",
+  "call": {
+    "base64": "FgRhcmdzHURjbGlwcy12MdwDUlItMTcgdW5jb2F0ZWQgYnJhc3MgcGFwZXIgY2xpcHMsIG9uZSBmaXhlZCBwcm9kdWN0IHZhcmlhbnS0AVsiY2FzZSIsImJveCIsInBpZWNlIl0GbWV0aG9kNGNyZWF0ZQ==",
+    "readable": "{\"args\":[\"clips-v1\",\"RR-17 uncoated brass paper clips, one fixed product variant\",\"[\\\"case\\\",\\\"box\\\",\\\"piece\\\"]\",]\"method\":\"create\"}"
+  },
+  "consensus": {
+    "votes": {
+      "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "agree",
+      "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "agree",
+      "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+      "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree",
+      "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+    },
+    "leader_receipts": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A",
+        "result": {
+          "status": "return",
+          "payload": "\"0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1\""
+        },
+        "eq_outputs": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A",
+        "result": {
+          "status": "return",
+          "payload": "\"0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1\""
+        },
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      }
+    ],
+    "validators": [
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc",
+        "result": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE",
+        "result": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2",
+        "result": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186",
+        "result": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      }
+    ]
+  },
+  "history": [
+    {
+      "consensus_round": "Accepted",
+      "status_changes": [
+        "PENDING",
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING",
+        "ACCEPTED"
+      ],
+      "leader_result": [
+        {
+          "mode": "leader",
+          "vote": null,
+          "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A",
+          "result": {},
+          "eq_outputs": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        }
+      ],
+      "validator_results": [
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        }
+      ]
+    }
+  ]
+}

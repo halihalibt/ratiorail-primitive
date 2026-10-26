@@ -4,6 +4,8 @@ A standalone GenLayer Intelligent Contract that turns natural-language **packagi
 
 One case contains six boxes. One box contains four pieces. A later claim of twenty pieces per case must not silently replace twenty-four. RatioRail retains the conflicting declaration and its numerical cycle witness while preserving the existing conversion.
 
+**Deployed:** [Stable Studionet contract](https://explorer-studio.genlayer.com/address/0x81E98E8162e8EB1E02ef11E2eF5ea7aA391a1dED). Six finalized successful transactions cover two accepted equalities, a blocked contradiction and a frozen exact table. [Inspect evidence](EVIDENCE.md).
+
 ## Mechanism
 
 1. `create` fixes the product and 2–6 named units in the caller's namespace.

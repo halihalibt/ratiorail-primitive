@@ -1,0 +1,42 @@
+{
+  "step": "create",
+  "book_id": "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1",
+  "address": "0x81E98E8162e8EB1E02ef11E2eF5ea7aA391a1dED",
+  "sender": "0xEEe2ffA61B611bdb4D0e4aa9531CE5B8484398D5",
+  "functionName": "create",
+  "args": [
+    "clips-v1",
+    "RR-17 uncoated brass paper clips, one fixed product variant",
+    "[\"case\",\"box\",\"piece\"]"
+  ],
+  "state": "checked",
+  "time": "2026-10-26T08:46:39.877Z",
+  "hash": "0xfaef67c2301f56b30967c7be5ef21fbd29f0d87508531ec82faf1ef2cbe1ade5",
+  "status": "FINALIZED",
+  "result": "MAJORITY_AGREE",
+  "execution": "return",
+  "votes": {
+    "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "agree",
+    "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "agree",
+    "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+    "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree",
+    "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+  },
+  "readback": {
+    "attempts": [],
+    "edges": [],
+    "id": "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1",
+    "owner": "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5",
+    "product": "RR-17 uncoated brass paper clips, one fixed product variant",
+    "revision": 0,
+    "scope_hash": "38453bb6b599d8442834cc184f0c9ebcbf18f643d24e4575fe3964dc3e69d995",
+    "state": "OPEN",
+    "table": [],
+    "table_hash": "",
+    "units": [
+      "case",
+      "box",
+      "piece"
+    ]
+  }
+}

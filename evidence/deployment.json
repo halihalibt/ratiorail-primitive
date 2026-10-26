@@ -1,0 +1,19 @@
+{
+  "step": "deployment",
+  "sender": "0xEEe2ffA61B611bdb4D0e4aa9531CE5B8484398D5",
+  "source_sha256": "52ff676a63628d504dc9639bb07f136385ddd6765bf1d82002130811e898e5fd",
+  "time": "2026-10-26T08:44:46.942Z",
+  "state": "checked",
+  "hash": "0x073bda60bc8cc74098f8495bfa62b5a7e2a7aabf8788461c8e91e9a01390976d",
+  "address": "0x81E98E8162e8EB1E02ef11E2eF5ea7aA391a1dED",
+  "status": "FINALIZED",
+  "result": "MAJORITY_AGREE",
+  "execution": "return",
+  "votes": {
+    "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+    "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "idle",
+    "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "idle",
+    "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4": "agree",
+    "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947": "agree"
+  }
+}

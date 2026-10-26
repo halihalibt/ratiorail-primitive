@@ -1,0 +1,9 @@
+Captured verifier output; npm environment and update notices omitted.
+
+deployment: FINALIZED / MAJORITY_AGREE / return / full consensus
+create: FINALIZED / MAJORITY_AGREE / return / full consensus
+link0: FINALIZED / MAJORITY_AGREE / return / full consensus
+link1: FINALIZED / MAJORITY_AGREE / return / full consensus
+link2: FINALIZED / MAJORITY_AGREE / return / full consensus
+freeze: FINALIZED / MAJORITY_AGREE / return / full consensus
+Verified deployed source, exact calldata, frozen scope, accepted forest, conflict witness, table hash and 25/24 conversion.

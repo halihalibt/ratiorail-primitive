@@ -1,0 +1,289 @@
+{
+  "hash": "0x073bda60bc8cc74098f8495bfa62b5a7e2a7aabf8788461c8e91e9a01390976d",
+  "from_address": "0xEEe2ffA61B611bdb4D0e4aa9531CE5B8484398D5",
+  "to_address": "0x81E98E8162e8EB1E02ef11E2eF5ea7aA391a1dED",
+  "statusName": "FINALIZED",
+  "result_name": "MAJORITY_AGREE",
+  "execution_mode": "NORMAL",
+  "leader_only": false,
+  "num_of_initial_validators": 5,
+  "rotation_count": 0,
+  "num_of_rounds": "1",
+  "appealed": false,
+  "created_at": "2026-10-26T08:44:54.666601+00:00",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x336458747913FE397be82c4F0926ACeB3ab13618",
+      "0xB4EE99165ffe987E64B7b72e45a753309c501eef",
+      "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947",
+      "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4",
+      "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186"
+    ],
+    "validator_votes_hash": [
+      "0x4efdd634ace3fbd4c1962f5d9c9523487f9bbf326dff4645c41bafe1b22833db",
+      "0xf95e4ff1a21e398b846e0d94dc1954b5e2e5ff466a1a9ed5f3a0ecfcf7b588d8",
+      "0xa755832331e4e03e04c3d84d8694558601db10be9c6188c2fe02c0342fc01f68",
+      "0xd3ffdebd89c5f39438b3e591132aef84d774ab6fdec845e2ef996f7cc7aa419c",
+      "0x260f3a61b51944669d1fc8fd7ca3181bf7f7efab24ce8a5d5e2bd8179f215a09"
+    ],
+    "validator_votes": [
+      1,
+      5,
+      1,
+      1,
+      5
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "IDLE"
+    ]
+  },
+  "format": "Exact RPC field projection; repeated source encodings, raw byte arrays and provider configurations omitted.",
+  "call": {
+    "base64": "Bg==",
+    "readable": "{}"
+  },
+  "consensus": {
+    "votes": {
+      "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+      "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "idle",
+      "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "idle",
+      "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4": "agree",
+      "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947": "agree"
+    },
+    "leader_receipts": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "address": "0x336458747913FE397be82c4F0926ACeB3ab13618",
+        "result": {
+          "status": "return",
+          "payload": "null"
+        },
+        "eq_outputs": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0x336458747913FE397be82c4F0926ACeB3ab13618",
+        "result": {
+          "status": "return",
+          "payload": "null"
+        },
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      }
+    ],
+    "validators": [
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef",
+        "result": {},
+        "execution_result": "ERROR",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947",
+        "result": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4",
+        "result": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186",
+        "result": {},
+        "execution_result": "ERROR",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        }
+      }
+    ]
+  },
+  "history": [
+    {
+      "consensus_round": "Accepted",
+      "status_changes": [
+        "PENDING",
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING",
+        "ACCEPTED"
+      ],
+      "leader_result": [
+        {
+          "mode": "leader",
+          "vote": null,
+          "address": "0x336458747913FE397be82c4F0926ACeB3ab13618",
+          "result": {},
+          "eq_outputs": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0x336458747913FE397be82c4F0926ACeB3ab13618",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        }
+      ],
+      "validator_results": [
+        {
+          "mode": "validator",
+          "vote": "idle",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef",
+          "result": {},
+          "execution_result": "ERROR",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "idle",
+          "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186",
+          "result": {},
+          "execution_result": "ERROR",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          }
+        }
+      ]
+    }
+  ]
+}

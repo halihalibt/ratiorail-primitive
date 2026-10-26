@@ -1,0 +1,147 @@
+{
+  "attempts": [
+    {
+      "decision": {
+        "ratio": [
+          6,
+          1
+        ],
+        "status": "EXACT"
+      },
+      "from": 0,
+      "input_hash": "9d7c17bc71b7dcd264cdbaa4c2ac47ef958790190beccf842ad972c00a12ee56",
+      "outcome": "LINKED",
+      "statement": "For this product, a case contains exactly six boxes. This is a fixed packaging count, with no optional extra boxes.",
+      "to": 1,
+      "witness": null
+    },
+    {
+      "decision": {
+        "ratio": [
+          4,
+          1
+        ],
+        "status": "EXACT"
+      },
+      "from": 1,
+      "input_hash": "68226e0a9bb1d9bcc462728d3ca07e642a491d1b677fb33a34bb10a7ef014f31",
+      "outcome": "LINKED",
+      "statement": "For this product, each box holds exactly four pieces. Every box has this same fixed count.",
+      "to": 2,
+      "witness": null
+    },
+    {
+      "decision": {
+        "ratio": [
+          20,
+          1
+        ],
+        "status": "EXACT"
+      },
+      "from": 0,
+      "input_hash": "02583f1d914fd9bc2cf369f31392418ecbbc352fff38fb391a5b747cdf5552dc",
+      "outcome": "CONFLICT",
+      "statement": "For this product, a case contains exactly twenty pieces. This is a fixed count, not a minimum or an estimate.",
+      "to": 2,
+      "witness": {
+        "cycle_product": [
+          5,
+          6
+        ],
+        "existing_path": {
+          "ratio": [
+            24,
+            1
+          ],
+          "steps": [
+            {
+              "attempt": 0,
+              "reverse": false
+            },
+            {
+              "attempt": 1,
+              "reverse": false
+            }
+          ],
+          "unit": 2
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "attempt": 0,
+      "from": 0,
+      "ratio": [
+        6,
+        1
+      ],
+      "to": 1
+    },
+    {
+      "attempt": 1,
+      "from": 1,
+      "ratio": [
+        4,
+        1
+      ],
+      "to": 2
+    }
+  ],
+  "id": "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1",
+  "owner": "0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5",
+  "product": "RR-17 uncoated brass paper clips, one fixed product variant",
+  "revision": 4,
+  "scope_hash": "38453bb6b599d8442834cc184f0c9ebcbf18f643d24e4575fe3964dc3e69d995",
+  "state": "FROZEN",
+  "table": [
+    [
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        24,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  ],
+  "table_hash": "6873e8e5765559752bba8a14a7caf2a4e58b0198d0ef874ce131a7fce9eb717b",
+  "units": [
+    "case",
+    "box",
+    "piece"
+  ]
+}

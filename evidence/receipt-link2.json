@@ -1,0 +1,338 @@
+{
+  "hash": "0x785c419043d4b222be73e7c77233a81d47cdfc531af0533683221f3d009a4582",
+  "from_address": "0xEEe2ffA61B611bdb4D0e4aa9531CE5B8484398D5",
+  "to_address": "0x81E98E8162e8EB1E02ef11E2eF5ea7aA391a1dED",
+  "statusName": "FINALIZED",
+  "result_name": "MAJORITY_AGREE",
+  "execution_mode": "NORMAL",
+  "leader_only": false,
+  "num_of_initial_validators": 5,
+  "rotation_count": 0,
+  "num_of_rounds": "1",
+  "appealed": false,
+  "created_at": "2026-10-26T11:27:01.708815+00:00",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186",
+      "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE",
+      "0xB4EE99165ffe987E64B7b72e45a753309c501eef",
+      "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9",
+      "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc"
+    ],
+    "validator_votes_hash": [
+      "0x33c2f550e2ad721d58b78337525d18dd43b8908e3d019366b13ee1003a7beea6",
+      "0xd56e026fe564d8ddee1f285c174eacce37ce6bfab98df549f018c767f2f9297c",
+      "0xa55730238caecaad2ac5419788779e4e2021dfcd36369dab6c31d58e8e6b5da3",
+      "0x89c48e6ce864ec68b6dbcc082709724dfeaa1b6be35456acca9d110d3c2ac3ce",
+      "0x3ccba678007203d47808a9a5a3ff3ea0d3233fa3a6168e331b3a4416bbb50c37"
+    ],
+    "validator_votes": [
+      5,
+      1,
+      5,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "AGREE",
+      "IDLE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "format": "Exact RPC field projection; repeated source encodings, raw byte arrays and provider configurations omitted.",
+  "call": {
+    "base64": "FgRhcmdzLZwDMHhlZWUyZmZhNjFiNjExYmRiNGQwZTRhYTk1MzFjZTViODQ4NDM5OGQ1OmNsaXBzLXYxEQER7AZGb3IgdGhpcyBwcm9kdWN0LCBhIGNhc2UgY29udGFpbnMgZXhhY3RseSB0d2VudHkgcGllY2VzLiBUaGlzIGlzIGEgZml4ZWQgY291bnQsIG5vdCBhIG1pbmltdW0gb3IgYW4gZXN0aW1hdGUuBm1ldGhvZCRsaW5r",
+    "readable": "{\"args\":[\"0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1\",2,0,2,\"For this product, a case contains exactly twenty pieces. This is a fixed count, not a minimum or an estimate.\",]\"method\":\"link\"}"
+  },
+  "consensus": {
+    "votes": {
+      "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "agree",
+      "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+      "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "idle",
+      "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "idle",
+      "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree"
+    },
+    "leader_receipts": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186",
+        "result": {
+          "status": "return",
+          "payload": "\"{\\\"attempts\\\":[{\\\"decision\\\":{\\\"ratio\\\":[6,1],\\\"status\\\":\\\"EXACT\\\"},\\\"from\\\":0,\\\"input_hash\\\":\\\"9d7c17bc71b7dcd264cdbaa4c2ac47ef958790190beccf842ad972c00a12ee56\\\",\\\"outcome\\\":\\\"LINKED\\\",\\\"statement\\\":\\\"For this product, a case contains exactly six boxes. This is a fixed packaging count, with no optional extra boxes.\\\",\\\"to\\\":1,\\\"witness\\\":null},{\\\"decision\\\":{\\\"ratio\\\":[4,1],\\\"status\\\":\\\"EXACT\\\"},\\\"from\\\":1,\\\"input_hash\\\":\\\"68226e0a9bb1d9bcc462728d3ca07e642a491d1b677fb33a34bb10a7ef014f31\\\",\\\"outcome\\\":\\\"LINKED\\\",\\\"statement\\\":\\\"For this product, each box holds exactly four pieces. Every box has this same fixed count.\\\",\\\"to\\\":2,\\\"witness\\\":null},{\\\"decision\\\":{\\\"ratio\\\":[20,1],\\\"status\\\":\\\"EXACT\\\"},\\\"from\\\":0,\\\"input_hash\\\":\\\"02583f1d914fd9bc2cf369f31392418ecbbc352fff38fb391a5b747cdf5552dc\\\",\\\"outcome\\\":\\\"CONFLICT\\\",\\\"statement\\\":\\\"For this product, a case contains exactly twenty pieces. This is a fixed count, not a minimum or an estimate.\\\",\\\"to\\\":2,\\\"witness\\\":{\\\"cycle_product\\\":[5,6],\\\"existing_path\\\":{\\\"ratio\\\":[24,1],\\\"steps\\\":[{\\\"attempt\\\":0,\\\"reverse\\\":false},{\\\"attempt\\\":1,\\\"reverse\\\":false}],\\\"unit\\\":2}}}],\\\"edges\\\":[{\\\"attempt\\\":0,\\\"from\\\":0,\\\"ratio\\\":[6,1],\\\"to\\\":1},{\\\"attempt\\\":1,\\\"from\\\":1,\\\"ratio\\\":[4,1],\\\"to\\\":2}],\\\"id\\\":\\\"0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5:clips-v1\\\",\\\"owner\\\":\\\"0xeee2ffa61b611bdb4d0e4aa9531ce5b8484398d5\\\",\\\"product\\\":\\\"RR-17 uncoated brass paper clips, one fixed product variant\\\",\\\"revision\\\":3,\\\"scope_hash\\\":\\\"38453bb6b599d8442834cc184f0c9ebcbf18f643d24e4575fe3964dc3e69d995\\\",\\\"state\\\":\\\"READY\\\",\\\"table\\\":[],\\\"table_hash\\\":\\\"\\\",\\\"units\\\":[\\\"case\\\",\\\"box\\\",\\\"piece\\\"]}\""
+        },
+        "eq_outputs": {
+          "0": {
+            "raw": "AB4KZnJvbV9jb3VudAkGc3RhdHVzLEVYQUNUCHRvX2NvdW50oQE=",
+            "status": "return",
+            "payload": {
+              "raw": [
+                30,
+                10,
+                102,
+                114,
+                111,
+                109,
+                95,
+                99,
+                111,
+                117,
+                110,
+                116,
+                9,
+                6,
+                115,
+                116,
+                97,
+                116,
+                117,
+                115,
+                44,
+                69,
+                88,
+                65,
+                67,
+                84,
+                8,
+                116,
+                111,
+                95,
+                99,
+                111,
+                117,
+                110,
+                116,
+                161,
+                1
+              ],
+              "readable": "{\"from_count\":1\"status\":\"EXACT\"\"to_count\":20}"
+            }
+          }
+        },
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186",
+        "result": {
+          "status": "contract_error",
+          "payload": "idle"
+        },
+        "execution_result": "ERROR",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        }
+      }
+    ],
+    "validators": [
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE",
+        "result": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef",
+        "result": {},
+        "execution_result": "ERROR",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9",
+        "result": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "address": "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc",
+        "result": {},
+        "execution_result": "SUCCESS",
+        "nondet_disagree": null,
+        "diagnostic": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        }
+      }
+    ]
+  },
+  "history": [
+    {
+      "consensus_round": "Accepted",
+      "status_changes": [
+        "PENDING",
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING",
+        "ACCEPTED"
+      ],
+      "leader_result": [
+        {
+          "mode": "leader",
+          "vote": null,
+          "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186",
+          "result": {},
+          "eq_outputs": {
+            "0": "AB4KZnJvbV9jb3VudAkGc3RhdHVzLEVYQUNUCHRvX2NvdW50oQE="
+          },
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "idle",
+          "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186",
+          "result": {},
+          "execution_result": "ERROR",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          }
+        }
+      ],
+      "validator_results": [
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "idle",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef",
+          "result": {},
+          "execution_result": "ERROR",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "address": "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc",
+          "result": {},
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "diagnostic": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        }
+      ]
+    }
+  ]
+}
