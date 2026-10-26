@@ -1,0 +1,119 @@
+{
+  "time": "2026-10-26T08:41:30.935Z",
+  "chain_id": 61999,
+  "gas_price": "0x0",
+  "rpc": "https://studio.genlayer.com/api",
+  "sdk": "genlayer-js@1.1.8",
+  "schema": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "convert": {
+        "params": [
+          [
+            "book_id",
+            "string"
+          ],
+          [
+            "source",
+            "int"
+          ],
+          [
+            "target",
+            "int"
+          ],
+          [
+            "amount",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "create": {
+        "params": [
+          [
+            "slug",
+            "string"
+          ],
+          [
+            "product",
+            "string"
+          ],
+          [
+            "units_json",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "string",
+        "payable": false
+      },
+      "freeze": {
+        "params": [
+          [
+            "book_id",
+            "string"
+          ],
+          [
+            "expected_revision",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "string",
+        "payable": false
+      },
+      "get_book": {
+        "params": [
+          [
+            "book_id",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "link": {
+        "params": [
+          [
+            "book_id",
+            "string"
+          ],
+          [
+            "expected_revision",
+            "int"
+          ],
+          [
+            "source",
+            "int"
+          ],
+          [
+            "target",
+            "int"
+          ],
+          [
+            "statement",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "string",
+        "payable": false
+      },
+      "protocol": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      }
+    }
+  }
+}

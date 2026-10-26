@@ -1,0 +1,12 @@
+{
+  "kind": "synthetic packaging specification; not an authenticated supplier record",
+  "slug": "clips-v1",
+  "product": "RR-17 uncoated brass paper clips, one fixed product variant",
+  "units": ["case", "box", "piece"],
+  "links": [
+    {"source":0,"target":1,"statement":"For this product, a case contains exactly six boxes. This is a fixed packaging count, with no optional extra boxes.","expected":"LINKED","ratio":[6,1]},
+    {"source":1,"target":2,"statement":"For this product, each box holds exactly four pieces. Every box has this same fixed count.","expected":"LINKED","ratio":[4,1]},
+    {"source":0,"target":2,"statement":"For this product, a case contains exactly twenty pieces. This is a fixed count, not a minimum or an estimate.","expected":"CONFLICT","ratio":[20,1]}
+  ],
+  "conversion":{"source":2,"target":0,"amount":25,"numerator":25,"denominator":24,"whole_units":1,"remainder_numerator":1}
+}
