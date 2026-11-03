@@ -8,4 +8,4 @@ The graph's active subset is a forest built by component joins. A closing equali
 
 The reusable output is a frozen complete rational table with immutable provenance and rejected-attempt history. Inventory adapters, catalogue tools and packing calculations can read exact conversions without trusting a private summarization server or running a fresh model call. The contract provides shared accepted computation, not independent certification of the declared facts.
 
-This mechanism is not text compression or material-fact preservation. It also differs from evidence-source independence, qualitative route reachability, requirement compatibility, amendment classification, finite-world negotiation and invoice deduplication. Its central invariant is multiplicative consistency of directed quantity equalities; its conflict witness is an exact non-unit cycle product. No earlier contract or companion product is required.
+The central invariant is multiplicative consistency of directed quantity equalities. An exact non-unit cycle product provides a checkable witness when declared equalities conflict.
